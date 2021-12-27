@@ -28,15 +28,20 @@ h2 {
 #mydiv {
     position: absolute;
     z-index: 9;
+    width: 250px;
+    height: 250px;
+    top: 300px;
+    left: 100px;
     background-color: #f1f1f1;
-    border: 1px solid #d3d3d3;
+    border: 2px solid #e8ff26;
     text-align: center;
 }
+
   
 #mydivheader {
-    padding: 10px;
+    padding: 3px;
     cursor: move;
     z-index: 10;
-    background-color: #2196F3;
-    color: #fff;
+    background-color: #e8ff26;
+    color: black;
 }
