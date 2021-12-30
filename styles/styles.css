@@ -1,3 +1,26 @@
+  /* if desktop */
+  .mobile_device_380px {
+    display: none;
+}
+.mobile_device_480px {
+    display: none;
+}
+
+
+/* if mobile device max width 380px */
+@media only screen and (max-device-width: 380px) {
+    .mobile_device_380px{display: block;}       
+    .desktop {display: none;}
+} 
+
+/* if mobile device max width 480px */
+@media only screen and (max-device-width: 480px) {
+   .mobile_device_480px{display: block;}
+   .desktop {display: none;}
+}
+
+
+
 
 
 body, html {
@@ -23,8 +46,6 @@ h2 {
     color: white;
 }
 
-
-
 #mydiv {
     position: absolute;
     z-index: 9;
@@ -35,6 +56,7 @@ h2 {
     background-color: #f1f1f1;
     border: 2px solid #e8ff26;
     text-align: center;
+    box-shadow: 2px 2px 10px #888888;
 }
 
   
