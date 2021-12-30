@@ -20,13 +20,15 @@
 }
 
 
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
 
 body, html {
-    min-height: 100vh;
-    margin: 0px;
-    padding: 0px;
+    /* min-height: 100vh; */
+    /* margin: 0px; */
+    /* padding: 0px; */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 html {
@@ -34,51 +36,52 @@ html {
    }
 
 body {
-    background: #000;
-    color: #000;
+    background: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
 }
 
 h1 {
-    color: white;
+    color: black;
 }
 
 h2 {
-    color: white;
+    color: black;
 }
 
 
 
 #mydiv {
     position: absolute;
-    z-index: 9;
+    z-index: 0;
     width: 250px;
     height: 250px;
     top: 300px;
     left: 100px;
-    background-color: #f1f1f1;
+    background-color: black;
     border: 2px solid #e8ff26;
     text-align: center;
-    box-shadow: 2px 2px 10px #888888;
+    box-shadow: 2px 2px 4px #888888;
 }
 
 #mydivMob {
     position: absolute;
-    z-index: 9;
+    z-index: 0;
     width: 300px;
     height: 300px;
     top: 400px;
-    left: 60px;
-    background-color: #f1f1f1;
+    left: 50px;
+    background-color: black;
     border: 2px solid #e8ff26;
     text-align: center;
-    box-shadow: 2px 2px 10px #888888;
+    box-shadow: 2px 2px 4px #888888;
 }
 
   
 #mydivheader {
     padding: 3px;
     cursor: move;
-    z-index: 10;
+    z-index: 0;
+    border: 2px solid #e8ff26;
     background-color: #e8ff26;
     color: black;
 }
