@@ -64,10 +64,10 @@ h2 {
 #mydivMob {
     position: absolute;
     z-index: 9;
-    width: 400px;
-    height: 400px;
-    top: 300px;
-    left: 50px;
+    width: 250px;
+    height: 250px;
+    top: 400px;
+    left: 75px;
     background-color: #f1f1f1;
     border: 2px solid #e8ff26;
     text-align: center;
