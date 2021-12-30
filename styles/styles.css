@@ -140,10 +140,11 @@ h4 {
 #title1Mob {
     position: absolute;
     z-index: 0;
-    width: 400px;
+    width: 350px;
     height: 5px;
     top: 10px;
-    left: 40px;
+    /* left: 25px; */
+    padding-left: 25px;
     background-color: rgba(255, 165, 0, 0.0);
     text-align: center;
 }
