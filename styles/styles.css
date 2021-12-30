@@ -62,8 +62,8 @@ h3 {
     z-index: 0;
     width: 250px;
     height: 250px;
-    top: 300px;
-    left: 100px;
+    top: 400px;
+    left: 500px;
     background-color: black;
     border: 2px solid #e8ff26;
     text-align: center;
@@ -73,10 +73,10 @@ h3 {
 #mydiv2 {
     position: absolute;
     z-index: 0;
-    width: 250px;
-    height: 250px;
-    top: 250px;
-    left: 300px;
+    width: 500px;
+    height: 500px;
+    top: 80px;
+    left: 700px;
     background-color: whitesmoke;
     border: 2px solid #e8ff26;
     text-align: center;
@@ -105,4 +105,26 @@ h3 {
     border: 2px solid #e8ff26;
     background-color: #e8ff26;
     color: black;
+}
+
+#title1 {
+    position: absolute;
+    z-index: 0;
+    width: 600px;
+    height: 5px;
+    top: 10px;
+    left: 50px;
+    background-color: rgba(255, 165, 0, 0.0);
+    text-align: left;
+}
+
+#title2 {
+    position: absolute;
+    z-index: 0;
+    width: 600px;
+    height: 5px;
+    top: 10px;
+    left: 520px;
+    background-color: rgba(255, 165, 0, 0.0);
+    text-align: left;
 }
