@@ -11,7 +11,7 @@
 @media only screen and (max-device-width: 380px) {
     .mobile_device_380px{display: block;}       
     .desktop {display: none;}
-} 
+}
 
 /* if mobile device max width 480px */
 @media only screen and (max-device-width: 480px) {
@@ -20,7 +20,7 @@
 }
 
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap'); */
 
 
 body, html {
@@ -48,6 +48,13 @@ h2 {
     color: black;
 }
 
+h3 {
+    font-family: 'Poppins';
+    font-size: 100px;
+    color: black;
+
+}
+
 
 
 #mydiv {
@@ -62,6 +69,20 @@ h2 {
     text-align: center;
     box-shadow: 2px 2px 4px #888888;
 }
+
+#mydiv2 {
+    position: absolute;
+    z-index: 0;
+    width: 250px;
+    height: 250px;
+    top: 250px;
+    left: 300px;
+    background-color: whitesmoke;
+    border: 2px solid #e8ff26;
+    text-align: center;
+    box-shadow: 2px 2px 4px #888888;
+}
+
 
 #mydivMob {
     position: absolute;
