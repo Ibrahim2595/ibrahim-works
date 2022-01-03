@@ -1,0 +1,124 @@
+#mydiv1 {
+    position: absolute;
+    z-index: 0;
+    width: 250px;
+    height: 250px;
+    top: 400px;
+    left: 500px;
+    background-color: black;
+    border: 2px solid #e8ff26;
+    text-align: center;
+    box-shadow: 2px 2px 4px #888888;
+    cursor: move;
+}
+
+#mydiv2 {
+    position: absolute;
+    z-index: 0;
+    width: 500px;
+    height: 500px;
+    top: 80px;
+    left: 700px;
+    background-color: whitesmoke;
+    border: 2px solid #e8ff26;
+    /* border: 2px solid black; */
+    text-align: center;
+    box-shadow: 2px 2px 4px #888888;
+    cursor: move;
+}
+
+
+#mydiv3 {
+    position: absolute;
+    z-index: 0;
+    width: 250px;
+    height: 250px;
+    top: 200px;
+    left: 400px;
+    background-color: whitesmoke;
+    border: 2px solid #e8ff26;
+    /* border: 2px solid black; */
+    text-align: center;
+    box-shadow: 2px 2px 4px #888888;
+    cursor: move;
+}
+
+#mydiv4 {
+    position: absolute;
+    z-index: 0;
+    width: 250px;
+    height: 600px;
+    top: 200px;
+    left: 1100px;
+    background-color: whitesmoke;
+    border: 2px solid #e8ff26;
+    /* border: 2px solid black; */
+    text-align: center;
+    box-shadow: 2px 2px 4px #888888;
+    cursor: move;
+}
+
+
+#mydiv5 {
+    position: absolute;
+    z-index: 0;
+    width: 250px;
+    height: 250px;
+    top: 480px;
+    left: 220px;
+    background-color: whitesmoke;
+    border: 2px solid #e8ff26;
+    /* border: 2px solid black; */
+    text-align: center;
+    box-shadow: 2px 2px 4px #888888;
+    cursor: move;
+}
+
+
+#mydiv6 {
+    position: absolute;
+    z-index: 0;
+    width: 250px;
+    height: 250px;
+    top: 480px;
+    left: 600px;
+    background-color: black;
+    border: 2px solid #e8ff26;
+    /* border: 2px solid black; */
+    text-align: center;
+    box-shadow: 2px 2px 4px #888888;
+    cursor: move;
+}
+
+#mydiv7 {
+    position: absolute;
+    z-index: 0;
+    width: 250px;
+    height: 250px;
+    top: 480px;
+    left: 1250px;
+    background-color: black;
+    border: 2px solid #e8ff26;
+    /* border: 2px solid black; */
+    text-align: center;
+    box-shadow: 2px 2px 4px #888888;
+    cursor: move;
+}
+
+
+
+
+#mydivheader {
+    font-family: 'Space Mono';
+    font-size: 13px;
+    padding: 3px;
+    cursor: move;
+    z-index: 0;
+    border: 2px solid #e8ff26;
+    background-color: #e8ff26;
+    /* border: 2px solid black;
+    background-color: black; */
+    color: black;
+
+}
+
