@@ -1,4 +1,4 @@
-#mydivMob {
+#mydivMob1 {
     position: relative;
     /* z-index: 0;   */
     width: 300px;
@@ -8,7 +8,7 @@
     /* right: 50%; */
     margin-left: auto;
     margin-right: auto;
-    background-color: black;
+    background-color: whitesmoke;
     border: 2px solid #e8ff26;
     text-align: center;
     box-shadow: 2px 2px 4px #888888;
