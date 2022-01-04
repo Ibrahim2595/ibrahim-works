@@ -24,6 +24,6 @@ myDiv3.style.top = `${randomTopValue3}px`;
 
 const myDiv4 = document.querySelector("#mydiv4");
 const randomLeftValue4 = Number.parseInt(Math.random() * (1000) + 200);
-const randomTopValue4 = Number.parseInt(Math.random() * (500) + 40);
+const randomTopValue4 = Number.parseInt(Math.random() * (250) + 10);
 myDiv4.style.left = `${randomLeftValue4}px`;
 myDiv4.style.top = `${randomTopValue4}px`;

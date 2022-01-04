@@ -121,6 +121,22 @@
 }
 
 
+#mydiv8 {
+    position: absolute;
+    z-index: 0;
+    width: 335px;
+    height: 250px;
+    top: 100px;
+    left: 1000px;
+    background-color: whitesmoke;
+    border: 2px solid #e8ff26;
+    /* border: 2px solid black; */
+    text-align: center;
+    box-shadow: 2px 2px 4px #888888;
+    cursor: move;
+}
+
+
 
 
 #mydivheader {
