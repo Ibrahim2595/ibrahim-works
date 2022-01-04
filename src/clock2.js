@@ -24,7 +24,7 @@ function showTime(){
 
     var ESTtime = ESTh + ":" + ESTm + " " + " "+ "EST";
     
-    var combinedTime = h + ":" + m + " " + " " + "LocalTime" + '\n' + ESTh + ":" + ESTm + " " + " "+ "EST";
+    var combinedTime =  ESTh + ":" + ESTm + " " + " "+ "EST" + '\n' + h + ":" + m + " " + " " + "LocalTime";
 
 
 
