@@ -32,3 +32,16 @@ ul {
   .active {
     color: blue;
   }
+
+
+  #ul2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    left: 65px;
+    width: 100%;
+
+  }

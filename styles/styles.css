@@ -125,6 +125,12 @@ h7 {
     left: 65px;
 }
 
+#camLoc {
+    position:fixed;
+    top: 630px;
+    left: 65px;
+}
+
 
 
 
@@ -162,5 +168,11 @@ h7 {
 #refreshPage {
     position:fixed;
     top: 750px;
+    left: 65px;
+}
+
+#dragDiv {
+    position:fixed;
+    top: 730px;
     left: 65px;
 }
