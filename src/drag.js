@@ -6,7 +6,7 @@ dragElement(document.getElementById("mydiv4"));
 dragElement(document.getElementById("mydiv5"));
 dragElement(document.getElementById("mydiv6"));
 dragElement(document.getElementById("mydiv7"));
-dragElement(document.getElementById("mydiv8"));
+dragElement(document.getElementById("mydiv9"));
 
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
