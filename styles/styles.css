@@ -160,7 +160,7 @@ h7 {
 }
 
 #refreshPage {
-    position: fixed;
+    position:fixed;
     top: 750px;
     left: 65px;
 }
