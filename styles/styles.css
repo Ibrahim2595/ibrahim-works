@@ -167,12 +167,12 @@ h7 {
 
 #refreshPage {
     position:fixed;
-    top: 750px;
+    top: 735px;
     left: 65px;
 }
 
 #dragDiv {
     position:fixed;
-    top: 730px;
+    top: 750px;
     left: 65px;
 }
