@@ -162,7 +162,7 @@ h7 {
 }
 
 #about {
-    position:fixed;
+    position:absolute;
     width: 300px;
     top: 150px;
     left: 65px;
