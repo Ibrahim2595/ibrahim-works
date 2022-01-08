@@ -36,17 +36,12 @@ ul {
 
 
   #ul2 {
-    list-style-type: none;
-    /* margin: 0; */
-    /* padding: 0; */
     overflow: hidden;
     position: fixed;
     bottom: 0;
-    width: 100%;
-    text-align: center;
-    /* margin-left: auto;
-    margin-right: auto; */
-    /* padding: 0%; */
-    /* text-decoration: none; */
-    /* top: 760px; */
+    width: 70%;
+
+    margin-right: auto;
+
+
   }

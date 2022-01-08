@@ -13,7 +13,8 @@
   .left {
     width: 30%;
     left: 0;
-    background-color: blue;
+    /* background-color: blue; */
+    overflow-y: hidden;
   }
   
   
@@ -21,5 +22,6 @@
   .right {
     width: 70%;
     right: 0;
-    background-color: red;
+    /* background-color: red; */
+    overflow-y: auto;
   }
