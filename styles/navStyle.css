@@ -4,7 +4,7 @@ ul {
     padding: 0;
     overflow: hidden;
     position: fixed;
-    top: 0;
+    top: 0px;
     left: 50px;
     width: 100%;
 
@@ -43,5 +43,6 @@ ul {
     bottom: 0;
     left: 65px;
     width: 100%;
+    top: 760px;
 
   }

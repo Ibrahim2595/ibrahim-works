@@ -73,14 +73,14 @@
     cursor: move;
 }
 
-
+/* ENTANGLE */
 #mydiv5 {
     position: absolute;
     z-index: 0;
     width: 150px;
     height: 250px;
-    top: 480px;
-    left: 400px;
+    top: 550px;
+    left: 425px;
     background-color: white;
     border: 2px solid #e8ff26;
     /* border: 2px solid black; */
@@ -90,12 +90,13 @@
 }
 
 
+/* IRIS */
 #mydiv6 {
     position: absolute;
     z-index: 0;
     width: 250px;
     height: 250px;
-    top: 480px;
+    top: 550px;
     left: 600px;
     background-color: black;
     border: 2px solid #e8ff26;
@@ -105,13 +106,14 @@
     cursor: move;
 }
 
+/* STYLE GAN */
 #mydiv7 {
     position: absolute;
     z-index: 0;
     width: 250px;
     height: 250px;
-    top: 480px;
-    left: 1250px;
+    top: 550px;
+    left: 1235px;
     background-color: whitesmoke;
     border: 2px solid #e8ff26;
     /* border: 2px solid black; */
@@ -120,13 +122,13 @@
     cursor: move;
 }
 
-
+/* SALIENT EXTENSION */
 #mydiv9 {
     position: absolute;
     z-index: 0;
     width: 335px;
     height: 250px;
-    top: 75px;
+    top: 50px;
     left: 1000px;
     background-color: whitesmoke;
     border: 2px solid #e8ff26;
