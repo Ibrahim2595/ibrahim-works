@@ -131,13 +131,12 @@ h7 {
     left: 65px;
 }
 
+
 #camLoc {
     position:fixed;
     top: 630px;
     left: 65px;
 }
-
-
 
 
 /* Title Ibrahim Ibrahim */
@@ -161,6 +160,7 @@ h7 {
     text-align: left;
 }
 
+
 #about {
     /* position: relative; */
     width: 70%;
@@ -171,15 +171,15 @@ h7 {
     /* margin: 20px; */
     margin-left: auto;
     margin-right: auto;
-
-
 }
+
 
 #refreshPage {
     position:fixed;
     top: 735px;
     left: 65px;
 }
+
 
 #dragDiv {
     position:fixed;
