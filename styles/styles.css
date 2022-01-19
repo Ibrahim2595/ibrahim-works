@@ -1,0 +1,154 @@
+html , body{
+    scroll-behavior: smooth;
+    background-color: #e3e3e3!important;
+}
+
+.row {
+    --bs-gutter-x: 0 !important;
+}
+
+.margin-top-60 {
+    margin-top: 60px !important;
+}
+
+.height-100 {
+    height: 100%;
+}
+
+.object-cover {
+    object-fit: cover;
+}
+
+h3 {
+    font-family: 'Space Mono';
+    font-size: 29px;
+    color: black;
+}
+
+h4 {
+    font-family: 'Space Mono';
+    font-size: 13px;
+    color: black;
+    text-align: center;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+
+h5 {
+    font-family: 'Space Mono';
+    font-size: 23px;
+    color: black;
+}
+
+#heading {
+    margin-top: 68px;
+    padding-left: 20px;
+}
+
+.fa {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 50%;
+    font-size: 11px !important;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+    color: black;
+}
+
+.fa-instagram {
+    color: black;
+}
+
+.fa-vimeo {
+    color: black;
+}
+
+.fa-github {
+    color: black;
+}
+
+.fixed-top {
+    padding-left: 16px;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: blue !important;
+    text-decoration: none;
+}
+
+.active {
+    color: blue !important;
+    text-decoration: none;
+}
+
+.no-style {
+    list-style: none;
+    font-size: 20px;
+}
+
+.card{
+    margin:13px
+}
+/* MOBILE STYLES */
+
+@media only screen and (max-width: 991px) {
+    .fixed-top {
+        padding-left: 0px;
+    }
+    #heading {
+        margin-top: 10px;
+    }
+
+    .navbar-nav {
+        flex-direction: row !important;
+    }
+
+    .nav-link {
+        float: left;
+    }
+
+    li.nav-item {
+        padding-right: 10px;
+    }
+
+    .fixed-top {
+        position: unset !important;
+        justify-content: center!important;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .card{
+        margin:50px!important;
+    }
+    .left {
+        width: unset;
+    }
+
+    .mobile-title {
+        padding-left: 12%;
+    }
+
+    .mobile-list {
+        padding-left: 22%;
+    }
+    
+    .mobile-img{
+        padding: 40px;
+    }
+
+}
