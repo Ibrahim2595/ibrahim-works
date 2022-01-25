@@ -53,11 +53,18 @@ a:hover {
 }
 
 j{
-    color: grey;
+    color: rgb(83, 83, 83);
 }
 
 j:hover{
     color: blue;
+}
+
+k{
+    font-family: 'Space Mono';
+    font-size: 12px;
+    margin-left: 13px;
+    color: rgb(83, 83, 83);
 }
 
 h5 {
@@ -126,7 +133,7 @@ h5 {
 #MyClockDisplay2 {
     font-family: 'Space Mono';
     font-size: 12px;    
-    color: grey;
+    color: rgb(187, 187, 187);
 }
 
 /* MOBILE STYLES */
