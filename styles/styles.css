@@ -52,6 +52,13 @@ a:hover {
     text-decoration: none;
 }
 
+j{
+    color: grey;
+}
+
+j:hover{
+    color: blue;
+}
 
 h5 {
     font-family: 'Space Mono';  
