@@ -1,0 +1,409 @@
+@font-face {
+    font-family: helvetica;
+    src: url(/font/helvetica/Helvetica.ttf);
+}
+
+@font-face {
+    font-family: quantico;
+    src: url(/font/quantico/Quantico-Bold.ttf);
+}
+
+@font-face {
+    font-family: overpass;
+    src: url(/font/overpass/overpass-extrabold.otf);
+}
+
+.wow:first-child {
+    visibility: hidden;
+}
+
+/* comment this if you want to have blue hover */
+a:hover {
+    color: white !important;
+}
+
+body {
+    background-color: #f3f3f3 !important;
+}
+
+h1 {
+    font-family: overpass !important;
+    font-weight: bold !important;
+}
+
+.typewriter h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 0.0em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+
+
+
+h2{
+    font-family: overpass !important;
+    font-weight: bold !important;
+}
+
+h3{
+    font-family: quantico !important;
+}
+
+h4{
+    font-family: quantico !important;
+}
+
+h5{
+    font-family: overpass !important;
+    /* font-weight: bold !important; */
+}
+
+p {
+    text-align: justify;
+    font-family: helvetica!important;
+}
+
+p1 {
+    text-align: center;
+    font-family: helvetica!important;
+}
+
+p2 {
+    text-align: justify;
+    font-family: helvetica!important;
+}
+
+h1 {
+    font-size: 80px !important;
+}
+
+h2 {
+    font-size: 25px !important;
+}
+
+.modal-xl {
+    --bs-modal-width: 96% !important;
+}
+
+.video-content p {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.main-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    /* uncomment the code below for gradient background, also generate a gradient https://cssgradient.io/ */
+    /* background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 62, 121, 1) 35%, rgba(0, 212, 255, 1) 100%); */
+    /* background: linear-gradient(180deg, rgb(121, 121, 121) 10%, rgb(243, 243, 243) 100%); */
+    background: rgb(213, 213, 213);
+
+
+    /* uncomment the code below for background image */
+    /* background-image: url(../dummy/banner.jpg); */
+}
+
+.image-content {
+    text-align: center;
+}
+
+#video {
+    position: relative;
+    top: 0;
+    width: 100%;
+
+    /* video height */
+    height: 100vh;
+    object-fit: cover;
+}
+
+#inner-video {
+    height: 100%;
+}
+
+.video-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+}
+
+/* #work {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 65px;
+} */
+
+#work {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 65px;
+}
+
+.project-card {
+    color: black;
+    text-decoration: none;
+    border: solid 0.5px #e5e5e5;
+    transition: box-shadow 0.5s ease-in-out;
+    height: 400px;
+    padding: 40px;
+    background: #f3f3f3;
+    /* box-shadow: 0.2px 0.2px 0.2px 0.2px rgb(0 0 0 / 10%); */
+}
+
+
+.project-card .project-card-number {
+    font-size: 4em;
+    position: absolute;
+    z-index: 1;
+}
+
+.project-card .project-card-hero {
+    height: 70%;
+    width: 100%;
+    position: relative;
+}
+
+.project-card .project-card-hero .project-card-img {
+    width: 100%;
+    height: 86%;
+    object-fit: contain;
+    transition: transform 0.5s ease-in-out;
+    transform: scale(0.8);
+}
+
+.project-card .project-card-hero h2 {
+    margin: 0;
+    font-size: 2em;
+    padding-bottom: 10px;
+}
+
+.project-card .project-card-hero p {
+    font-size: 12px;
+}
+.project-card-info p {
+    font-size: 14px;
+}
+
+.project-card .project-card-info {
+    height: 30%;
+    position: relative;
+}
+
+.project-card .project-card-info .project-card-meta {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 10px;
+    padding: 5px 0 0 0;
+    border-top: solid 1px #F5F8FA;
+    color: #5C7080;
+}
+
+.project-card:hover .project-card-hero .project-card-img {
+    transform: scale(0.91);
+}
+
+.project-card:hover {
+    box-shadow: 2px 2px 1px 1px rgb(0 0 0 / 100%);
+}
+
+.project-card:hover .project-card-img {
+    /* background: var(--bs-link-hover-color); */
+}
+
+.project-bottom-title {
+    color: rgb(170, 170, 170);
+    font-size: 10px !important;
+}
+
+.project-card:hover .project-card-meta {
+    color: var(--bs-link-hover-color);
+}
+
+/* remove scrollbar on modals */
+.modal-body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    padding: 80px !important;
+}
+
+.modal-body::-webkit-scrollbar {
+    display: none;
+    /* Safari and Chrome */
+}
+
+.arrow-right {
+    position: absolute;
+    cursor: pointer;
+    font-size: 50px;
+    right: 10px;
+    bottom: 50%;
+    color: rgb(128 128 128 / 29%);
+    transition: 0.5s all;
+    z-index: 1;
+}
+
+.arrow-right:hover {
+    color: rgb(128 128 128 / 100%);
+}
+
+.arrow-left {
+    position: absolute;
+    cursor: pointer;
+    font-size: 50px;
+    left: 10px;
+    bottom: 50%;
+    color: rgb(128 128 128 / 29%);
+    transition: 0.5s all;
+    z-index: 1;
+}
+
+.arrow-left:hover {
+    color: rgb(128 128 128 / 100%);
+}
+
+.modal-header .btn-close {
+    margin: unset !important;
+}
+
+.modal-header {
+    padding: unset !important;
+    padding-left: 0.5rem !important;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+}
+
+.modal-title {
+    font-size: 40px;
+}
+
+.modal-body p {
+    font-size: 14px;
+}
+
+/* .modal-body p2 {
+    font-size: 14px  
+} */
+
+.social-media {
+    justify-content: center;
+}
+
+.external_videos {
+    height: 70vh;
+}
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+@media only screen and (min-width: 576px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 540px !important;
+    }
+
+    .modal-xl {
+        --bs-modal-width: 540px !important;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 720px !important;
+    }
+
+    .modal-xl {
+        --bs-modal-width: 720px !important;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 960px !important;
+    }
+
+    .modal-xl {
+        --bs-modal-width: 960px !important;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1140px !important;
+    }
+
+    .modal-xl {
+        --bs-modal-width: 1140px !important;
+    }
+
+}
+
+@media only screen and (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1000px !important;
+    }
+
+    .modal-xl {
+        --bs-modal-width: 1000px !important;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    .modal-backdrop.show {
+        opacity: unset !important;
+        background-color: transparent;
+    }
+
+    .modal-dialog {
+        box-shadow: 20px 19px 10px -19px #111;
+    }
+
+    .social-media {
+        flex-wrap: nowrap !important;
+        width: 27%;
+        justify-content: unset !important;
+    }
+
+    iframe {
+        height: 40vh !important;
+    }
+
+    .project-card .project-card-hero {
+        height: 68% !important;
+    }
+
+    #work {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
