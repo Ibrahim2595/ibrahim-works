@@ -30,25 +30,18 @@ h1 {
     font-family: overpass !important;
     font-weight: bold !important;
 }
- 
-.container {
-    place-items: center;
 
-    /* display: grid; */
-    
-}
 .typewriter h1 {
     display: inline-block;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid orange; /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
+    white-space: pre; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: 0.0em; /* Adjust as needed */
     animation: 
         typing 3.5s steps(40, end),
         blink-caret .75s step-end infinite;   
 }
-  
   
 
   /* The typing effect */
@@ -343,6 +336,7 @@ h2 {
     .modal-xl {
         --bs-modal-width: 540px !important;
     }
+    
 }
 
 @media only screen and (min-width: 768px) {
@@ -415,4 +409,9 @@ h2 {
     #work {
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     }
+    .typewriter h1 {
+        white-space: pre-line;
+    }
+    
+    
 }
