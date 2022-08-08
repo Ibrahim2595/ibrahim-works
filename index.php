@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ibrahim Ibrahim</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="owlcarousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/animatecss/3.5.2/animate.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+</head>
+
+<body>
+
+    <!-- m - for classes that set margin
+    p - for classes that set padding
+
+    t - for classes that set margin-top or padding-top
+    b - for classes that set margin-bottom or padding-bottom
+    l - for classes that set margin-left or padding-left
+    r - for classes that set margin-right or padding-right
+    x - for classes that set both *-left and *-right
+    y - for classes that set both *-top and *-bottom
+
+    Where size is one of:
+
+    0 - for classes that eliminate the margin or padding by setting it to 0
+    1 - (by default) for classes that set the margin or padding to $spacer * .25
+    2 - (by default) for classes that set the margin or padding to $spacer * .5
+    3 - (by default) for classes that set the margin or padding to $spacer
+    4 - (by default) for classes that set the margin or padding to $spacer * 1.5
+    5 - (by default) for classes that set the margin or padding to $spacer * 3
+
+    Example if i want to give a padding to the right side and spacer of 2   pr-2
+    Example if i want to give a margin to the left side and spacer of 2     ml-2 -->
+
+    <!-- uncomment this code to have a video background with text overlay -->
+
+    <!-- <video autoplay muted loop id="video">
+        <source src="dummy/rain.mp4" type="video/mp4">
+    </video>
+    <div class="video-overlay">
+        <div class="video-content container">
+            <h1>Hi, I am Ibrahim Ibrahim</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet dolore illum pariatur fugiat amet
+                voluptates tenetur dicta sed quidem ea, doloremque aperiam hic laudantium aliquam, ullam fugit minus
+                et
+                ad?</p>
+            <div class="social-media row pt-4">
+                <div class="col-md-1">
+                    <a href="#" target="_blank" class="text-white">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <div class="col-md-1">
+                    <a href="https://github.com/Ibrahim2595" target="_blank" class="text-white">
+                        <i class="fa fa-github" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <div class="col-md-1">
+                    <a href="https://www.linkedin.com/in/ib-ibrahim" target="_blank" class="text-white">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <div class="col-md-1">
+                    <a href="https://www.instagram.com/ib_ibrahim/" target="_blank" class="text-white">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+
+
+    <!-- uncomment this code to have an image/gradient background with text overlay -->
+
+    <section class="main-background">
+        <div class="col-md-12 text-black image-content container">
+            <!-- <h1>ibrahim ibrahim</h1> -->
+            <div class="typewriter">
+                <h1>coming soon &#128736;</h1>
+            </div>
+            <p1 style="font-size:20px;">prototyping art, design, technology & science</p1>
+            <br> <br>
+
+            <p1>ibrahimibrahim [at] gsd [dot] harvard [dot] edu</p1>
+            <br>
+
+            <div class="social-media row pt-4">
+                <div class="col-md-1">
+                    <a href="mailto:ibrahimibrahim@gsd.harvard.edu? subject='subject text'" target="_blank" class="text-black">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <div class="col-md-1">
+                    <a href="https://github.com/Ibrahim2595" target="_blank" class="text-black">
+                        <i class="fa fa-github" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <div class="col-md-1">
+                    <a href="https://www.linkedin.com/in/ib-ibrahim" target="_blank" class="text-black">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <div class="col-md-1">
+                    <a href="https://www.instagram.com/ib_ibrahim/" target="_blank" class="text-black">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- grid of 3 boxes -->
+    <section>
+        <div class="container">
+            <div id="work" class="pt-5 pb-5">
+                <!-- FIRST PROJECT -->
+                <ab class="project-card wow slideInUp" data-wow-duration="0.4s" data-bs-toggle="modal" href="#projectOne" role="button">
+                    <!-- Uncomment here to have the project number -->
+                    <!-- <div class="project-card-number">01</div> -->
+                    <div class="project-card-hero">
+                        <img class="project-card-img" src="dummy/dummy.png" height="50%">
+                        <h2> Synthetic Vision</h2>
+                        <p>&#128187; Text goes here text goes here text goes here text goes here text goes here text goes here
+                            text goes here
+                            <!-- <b>Release: 2021 </b> -->
+                        </p>
+                        <p class="project-bottom-title">
+                            Text goes here text goes here text goes here
+                        </p>
+                    </div>
+                </ab>
+
+                <!-- SECOND PROJECT -->
+                <ab class="project-card wow slideInUp" data-wow-duration="0.8s" data-bs-toggle="modal" href="#projectTwo" role="button">
+                    <!-- Uncomment here to have the project number -->
+                    <!-- <div class="project-card-number">02</div> -->
+                    <div class="project-card-hero">
+                        <img class="project-card-img" src="dummy/dummy.png" height="50%">
+                        <h2>AR Sketchnet</h2>
+                        <p>&#128187; Text goes here text goes here text goes here text goes here text goes here text goes here
+                            text goes here
+                            <!-- <b>Release: 2021 </b> -->
+                        </p>
+                        <p class="project-bottom-title">
+                            Text goes here text goes here text goes here
+                        </p>
+                    </div>
+                </ab>
+
+                <!-- THIRD PROJECT -->
+                <ab class="project-card wow slideInUp" data-wow-duration="1.2s" data-bs-toggle="modal" href="#projectThree" role="button">
+                    <!-- Uncomment here to have the project number -->
+                    <!-- <div class="project-card-number">03</div> -->
+                    <div class="project-card-hero">
+                        <img class="project-card-img" src="dummy/dummy.png" height="50%">
+                        <h2>Common Realm </h2>
+                        <p>&#129504; Text goes here text goes here text goes here text goes here text goes here text goes here
+                            text goes here
+                            <!-- <b>Release: 2021 </b> -->
+                        </p>
+                        <p class="project-bottom-title">
+                            Text goes here text goes here text goes here
+                        </p>
+                    </div>
+                </ab>
+
+                <!-- FOURTH PROJECT -->
+                <ab class="project-card wow slideInUp" data-wow-duration="1.2s" data-bs-toggle="modal" href="#projectFour" role="button">
+                    <!-- Uncomment here to have the project number -->
+                    <!-- <div class="project-card-number">03</div> -->
+                    <div class="project-card-hero">
+                        <img class="project-card-img" src="dummy/dummy.png" height="50%">
+                        <h2>Interverse</h2>
+                        <p>&#128242; Text goes here text goes here text goes here text goes here text goes here text goes here
+                            text goes here
+                            <!-- <b>Release: 2021 </b> -->
+                        </p>
+                        <p class="project-bottom-title">
+                            Text goes here text goes here text goes here
+                        </p>
+                    </div>
+                </ab>
+
+                <!-- FIFTH PROJECT -->
+                <ab class="project-card wow slideInUp" data-wow-duration="1.2s" data-bs-toggle="modal" href="#projectFive" role="button">
+                    <!-- Uncomment here to have the project number -->
+                    <!-- <div class="project-card-number">03</div> -->
+                    <div class="project-card-hero">
+                        <img class="project-card-img" src="dummy/dummy.png" height="50%">
+                        <h2>Rockbot</h2>
+                        <p>&#128295; Text goes here text goes here text goes here text goes here text goes here text goes here
+                            text goes here
+                            <!-- <b>Release: 2021 </b> -->
+                        </p>
+                        <p class="project-bottom-title">
+                            Text goes here text goes here text goes here
+                        </p>
+                    </div>
+                </ab>
+
+                <!-- SIXTH PROJECT -->
+                <ab class="project-card wow slideInUp" data-wow-duration="1.2s" data-bs-toggle="modal" href="#projectSix" role="button">
+                    <!-- Uncomment here to have the project number -->
+                    <!-- <div class="project-card-number">03</div> -->
+                    <div class="project-card-hero">
+                        <img class="project-card-img" src="dummy/dummy.png" height="50%">
+                        <h2>Iris</h2>
+                        <p>&#128300; Text goes here text goes here text goes here text goes here text goes here text goes here
+                            text goes here
+                        </p>
+                        <!-- <b>Release: 2021 </b>  -->
+                        <p class="project-bottom-title">
+                            Text goes here text goes here text goes here
+                        </p>
+                    </div>
+                </ab>
+
+                <!-- SEVENTH PROJECT -->
+                <ab class="project-card wow slideInUp" data-wow-duration="1.2s" data-bs-toggle="modal" href="#projectSeven" role="button">
+                    <!-- Uncomment here to have the project number -->
+                    <!-- <div class="project-card-number">03</div> -->
+                    <div class="project-card-hero">
+                        <img class="project-card-img" src="dummy/dummy.png" height="50%">
+                        <h2>Geometry Jungle</h2>
+                        <p>&#11093; Text goes here text goes here text goes here text goes here text goes here text goes here
+                            text goes here
+                            <!-- <b>Release: 2021 </b> -->
+                        </p>
+                        <p class="project-bottom-title">
+                            Text goes here text goes here text goes here
+                        </p>
+                    </div>
+                </ab>
+
+                <!-- Eigth PROJECT -->
+                <ab class="project-card wow slideInUp" data-wow-duration="1.2s" data-bs-toggle="modal" href="#projectEight" role="button">
+                    <!-- Uncomment here to have the project number -->
+                    <!-- <div class="project-card-number">03</div> -->
+                    <div class="project-card-hero">
+                        <img class="project-card-img" src="dummy/dummy.png" height="50%">
+                        <h2>Informed Vertical</h2>
+                        <p>&#128295; Text goes here text goes here text goes here text goes here text goes here text goes here
+                            text goes here
+                            <!-- <b>Release: 2021 </b> -->
+                        </p>
+                        <p class="project-bottom-title">
+                            Text goes here text goes here text goes here
+                        </p>
+                    </div>
+                </ab>
+
+                <!-- Nine PROJECT -->
+                <ab class="project-card wow slideInUp" data-wow-duration="1.2s" data-bs-toggle="modal" href="#projectNine" role="button">
+                    <!-- Uncomment here to have the project number -->
+                    <!-- <div class="project-card-number">03</div> -->
+                    <div class="project-card-hero">
+                        <img class="project-card-img" src="dummy/dummy.png" height="50%">
+                        <h2>Coded Space</h2>
+                        <p>&#128295; Text goes here text goes here text goes here text goes here text goes here text goes here
+                            text goes here
+                            <!-- <b>Release: 2021 </b> -->
+                        </p>
+                        <p class="project-bottom-title">
+                            Text goes here text goes here text goes here
+                        </p>
+                    </div>
+                </ab>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- MODALS -->
+    <!-- Modal of first project -->
+    <?php include 'project_modal_one.php'; ?>
+
+    <!-- Modal of second project -->
+    <?php include 'project_modal_two.php'; ?>
+
+    <!-- Modal of third project -->
+    <?php include 'project_modal_three.php'; ?>
+
+    <!-- Modal of Fourth project -->
+    <?php include 'project_modal_four.php'; ?>
+
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<script src="owlcarousel/js/jquery.min.js"></script>
+<script src="owlcarousel/js/owl.carousel.min.js"></script>
+<script>
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: false,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            1000: {
+                items: 1
+            }
+        }
+    });
+
+    wow = new WOW({
+        animateClass: 'animated',
+        offset: 100,
+        callback: function(box) {
+            console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+    });
+    wow.init();
+</script>
+
+</html>
