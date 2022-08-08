@@ -172,9 +172,8 @@ h2 {
     text-decoration: none;
     border: solid 0.5px #e5e5e5;
     transition: box-shadow 0.5s ease-in-out;
-    width: 280px;
     height: 400px;
-    padding: 35px;
+    padding: 40px;
     background: #f3f3f3;
     /* box-shadow: 0.2px 0.2px 0.2px 0.2px rgb(0 0 0 / 10%); */
 }
@@ -328,7 +327,6 @@ h2 {
     height: 100%;
 }
 
-
 @media only screen and (min-width: 576px) {
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
         max-width: 540px !important;
@@ -337,7 +335,6 @@ h2 {
     .modal-xl {
         --bs-modal-width: 540px !important;
     }
-    
 }
 
 @media only screen and (min-width: 768px) {
@@ -413,6 +410,4 @@ h2 {
     .typewriter h1 {
         white-space: pre-line;
     }
-    
-    
 }
