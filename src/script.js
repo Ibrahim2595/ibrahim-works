@@ -59,7 +59,7 @@
             // loaderAnim.remove();
 
             mixer = new THREE.AnimationMixer(model);
-            let idleAnim = THREE.AnimationClip.findByName(fileAnimations, 'idle');
+            let idleAnim = THREE.AnimationClip.findByName(fileAnimations, 'greeting');
             // let greetAnim = THREE.AnimationClip.findByName(fileAnimations, 'greeting');
             idle = mixer.clipAction(idleAnim);
             // greet = mixer.clipAction(greetAnim);
