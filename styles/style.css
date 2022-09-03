@@ -83,6 +83,7 @@ h2{
     font-family: sf-pro-bold !important;
     font-weight: bold !important;
     font-size: 25px !important;
+    position: relative;
 }
 
 h3{
@@ -106,6 +107,7 @@ p {
 p1 {
     text-align: center;
     font-family: sf-pro !important;
+    font-size: 14px;
 }
 
 p2 {
@@ -236,6 +238,10 @@ p2 {
     object-fit: contain;
     transition: transform 0.5s ease-in-out;
     transform: scale(0.8);
+    z-index: -1 !important;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    
 }
 
 .project-card .project-card-hero h2 {
@@ -267,7 +273,9 @@ p2 {
 }
 
 .project-card:hover .project-card-hero .project-card-img {
-    transform: scale(0.91);
+    transform: scale(1.2);
+    -webkit-filter: none !important; 
+    filter: none !important;
 }
 
 .project-card:hover {
