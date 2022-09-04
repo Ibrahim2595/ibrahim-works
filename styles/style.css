@@ -128,7 +128,7 @@ p2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 75vh;
+    height: 85vh;
 
     /* uncomment the code below for gradient background, also generate a gradient https://cssgradient.io/ */
     /* background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 62, 121, 1) 35%, rgba(0, 212, 255, 1) 100%); */
@@ -199,7 +199,7 @@ p2 {
 #work {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 65px;
+    grid-gap: 25px;
 }
 
 .project-card {
@@ -208,7 +208,8 @@ p2 {
     border: solid 0.5px #e5e5e5;
     transition: box-shadow 0.5s ease-in-out;
     height: 450px;
-    padding: 35px;
+    /* width: 280px; */
+    padding: 30px;
     background: #f3f3f3;
     border-radius: 8px;
     /* box-shadow: 0.2px 0.2px 0.2px 0.2px rgb(0 0 0 / 10%); */
@@ -221,7 +222,9 @@ p2 {
 
 
 .project-card .project-card-number {
-    font-size: 4em;
+    font-family: sf-pro-bold !important;
+    font-weight: bold !important;
+    font-size: 25px !important;
     position: absolute;
     z-index: 1;
 }
@@ -288,7 +291,7 @@ p2 {
 
 .project-bottom-title {
     color: rgb(170, 170, 170);
-    font-size: 10px !important;
+    font-size: 9px !important;
 }
 
 .project-card:hover .project-card-meta {
@@ -407,22 +410,22 @@ p2 {
 
 @media only screen and (min-width: 1200px) {
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-        max-width: 1140px !important;
+        max-width: 870px !important;
     }
 
     .modal-xl {
-        --bs-modal-width: 1140px !important;
+        --bs-modal-width: 1000px !important;
     }
 
 }
 
 @media only screen and (min-width: 1400px) {
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-        max-width: 1000px !important;
+        max-width: 900px !important;
     }
 
     .modal-xl {
-        --bs-modal-width: 1000px !important;
+        --bs-modal-width: 900px !important;
     }
 
 }
