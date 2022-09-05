@@ -83,7 +83,7 @@ h1 {
 h2{
     font-family: sf-pro-bold !important;
     font-weight: bold !important;
-    font-size: 25px !important;
+    font-size: 22px !important;
     position: relative;
 }
 
@@ -206,11 +206,11 @@ p2 {
 .project-card {
     color: black;
     text-decoration: none;
-    border: solid 0.5px #e5e5e5;
+    border: solid 0.5px #dfdfdf;
     transition: box-shadow 0.5s ease-in-out;
-    height: 450px;
+    height: absolute;
     /* width: 280px; */
-    padding: 30px;
+    padding: 35px 40px 30px 40px;
     background: #f3f3f3;
     border-radius: 8px;
     /* box-shadow: 0.2px 0.2px 0.2px 0.2px rgb(0 0 0 / 10%); */
@@ -252,13 +252,14 @@ p2 {
     margin: 0;
     font-size: 2em;
     padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .project-card .project-card-hero p {
-    font-size: 12px;
+    font-size: 10px;
 }
 .project-card-info p {
-    font-size: 14px;
+    font-size: 10px;
 }
 
 .project-card .project-card-info {
@@ -282,9 +283,9 @@ p2 {
     filter: none !important;
 }
 
-.project-card:hover {
+/* .project-card:hover {
     box-shadow: 1px 1px 1px 1px rgb(0 0 0 / 50%);
-}
+} */
 
 .project-card:hover .project-card-img {
     /* background: var(--bs-link-hover-color); */
