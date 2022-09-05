@@ -433,6 +433,14 @@ p2 {
 }
 
 @media only screen and (max-width: 800px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 9000px !important;
+    }
+
+    .modal-xl {
+        --bs-modal-width: 700px !important;
+    }
+
     .modal-backdrop.show {
         opacity: unset !important;
         background-color: transparent;
@@ -444,12 +452,17 @@ p2 {
 
     .social-media {
         flex-wrap: nowrap !important;
-        width: 27%;
+        width: 31%;
+        scale: 80%;
         justify-content: unset !important;
     }
 
     iframe {
         height: 40vh !important;
+    }
+
+    .project-card{
+        padding: 70px 40px 30px 40px !important;
     }
 
     .project-card .project-card-hero {
@@ -461,5 +474,24 @@ p2 {
     }
     .typewriter h1 {
         white-space: pre-line;
+    }
+    h1{
+        font-size: 40px !important;
+    }
+    h2{
+        font-size: 25px !important;
+    }
+    p{
+        font-size: 12px !important;
+    }
+    p1{
+        font-size: 12px !important;
+    }
+    .project-card .project-card-hero h2 {
+        padding-bottom: 20px;
+        padding-top: 40px !important; 
+    }
+    .project-bottom-title {
+        font-size: 12px !important;
     }
 }
