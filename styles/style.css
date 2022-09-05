@@ -69,8 +69,9 @@ to { width: 100% }
 /* The typewriter cursor effect */
 @keyframes blink-caret {
 from, to { border-color: transparent }
-50% { border-color: orange; }
+50% { border-color: rgb(0, 0, 0); }
 }
+
 
 h1 {
     font-family: sf-pro-semibold !important;
@@ -240,10 +241,10 @@ p2 {
     height: 86%;
     object-fit: contain;
     transition: transform 0.5s ease-in-out;
-    transform: scale(0.8);
-    z-index: -1 !important;
+    transform: scale(0.95);
+    /* z-index: -1 !important;
     -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+    filter: grayscale(100%); */
     
 }
 
@@ -276,13 +277,13 @@ p2 {
 }
 
 .project-card:hover .project-card-hero .project-card-img {
-    transform: scale(1.2);
+    transform: scale(1.0);
     -webkit-filter: none !important; 
     filter: none !important;
 }
 
 .project-card:hover {
-    box-shadow: 2px 2px 1px 1px rgb(0 0 0 / 100%);
+    box-shadow: 1px 1px 1px 1px rgb(0 0 0 / 50%);
 }
 
 .project-card:hover .project-card-img {
